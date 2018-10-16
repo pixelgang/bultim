@@ -37899,15 +37899,15 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob,
-	cr.plugins_.Browser,
 	cr.plugins_.Audio,
+	cr.plugins_.Browser,
 	cr.plugins_.Function,
-	cr.plugins_.Keyboard,
 	cr.plugins_.Particles,
+	cr.plugins_.Keyboard,
 	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.Tilemap,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.WebStorage,
 	cr.behaviors.Physics,
 	cr.behaviors.scrollto,
